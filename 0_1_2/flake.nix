@@ -11,6 +11,7 @@
   inputs.src-base32-0_1_2.ref   = "refs/tags/0.1.2";
   inputs.src-base32-0_1_2.owner = "OpenSystemsLab";
   inputs.src-base32-0_1_2.repo  = "base32.nim";
+  inputs.src-base32-0_1_2.dir   = "";
   inputs.src-base32-0_1_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
